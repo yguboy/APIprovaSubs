@@ -1,0 +1,24 @@
+### Cadastro de IMC
+POST http://localhost:5000/imc/cadastrar
+Content-Type: application/json
+
+{
+  "alunoId": 1,
+  "altura": 1.75,
+  "peso": 70
+}
+
+### Listagem de IMCs
+GET http://localhost:5000/imc/listar
+
+### Listagem de IMCs por Aluno
+GET http://localhost:5000/imc/listarporaluno/1
+
+### Alteração de IMC
+PUT http://localhost:5000/imc/alterar/1
+Content-Type: application/json
+
+{
+  "altura": 1.80,
+  "peso": 75
+}

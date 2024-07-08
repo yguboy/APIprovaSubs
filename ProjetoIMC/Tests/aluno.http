@@ -1,0 +1,8 @@
+### Cadastro de Aluno
+POST http://localhost:5000/aluno/cadastrar
+Content-Type: application/json
+
+{
+  "nome": "João Silva",
+  "dataNascimento": "2000-01-01"
+}
